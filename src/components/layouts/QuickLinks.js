@@ -23,41 +23,41 @@ export default function QuickLinks({ sideNavOpenKeysHandler }) {
 			<div className='quick-links-container'>
 				<QuickLinksContainer
 					link='/product'
-					bg='#5A8DE040'
+					bg='#009EFF40'
 					linkName='PRODUCT'
 					icon={
 						<i
-							style={{ color: "#5A8DE0" }}
+							style={{ color: "#009EFF" }}
 							class='bi bi-box-fill quick-links-icon'></i>
 					}
 				/>
 				<QuickLinksContainer
 					link='/supplier'
-					bg='#BD5FD340'
+					bg='#25316D40'
 					linkName='PURCHASE'
 					icon={
 						<i
-							style={{ color: "#BD5FD3" }}
+							style={{ color: "#25316D" }}
 							class='bi bi-bag-fill quick-links-icon'></i>
 					}
 				/>
 				<QuickLinksContainer
 					link='/customer'
-					bg='#52B28940'
+					bg='#FD841F40'
 					linkName='SALE'
 					icon={
 						<i
-							style={{ color: "#52B289" }}
+							style={{ color: "#FD841F" }}
 							class='bi bi-receipt quick-links-icon'></i>
 					}
 				/>
 				<QuickLinksContainer
 					link='/account'
-					bg='#E0489B40'
+					bg='#3E6D9C40'
 					linkName='ACCOUNTS'
 					icon={
 						<i
-							style={{ color: "#E0489B" }}
+							style={{ color: "#3E6D9C" }}
 							class='bi bi-wallet-fill quick-links-icon'></i>
 					}
 				/>
@@ -73,31 +73,22 @@ export default function QuickLinks({ sideNavOpenKeysHandler }) {
 				/>
 				<QuickLinksContainer
 					link='/hr/staffs'
-					bg='#9E105740'
+					bg='#E14D2A40'
 					linkName='HR'
 					icon={
 						<i
-							style={{ color: "#9E1057" }}
+							style={{ color: "#E14D2A" }}
 							class='bi bi-person-circle quick-links-icon'></i>
 					}
 				/>
-				<QuickLinksContainer
-					link='/pos'
-					bg='#7E3C8E40'
-					linkName='POS'
-					icon={
-						<i
-							style={{ color: "#7E3C8E" }}
-							class='bi bi-cart-check-fill quick-links-icon'></i>
-					}
-				/>
+
 				<QuickLinksContainer
 					link='/invoice-setting'
-					bg='#65E5AB40'
+					bg='#3F3B6C40'
 					linkName='SETTINGS'
 					icon={
 						<i
-							style={{ color: "#65E5AB" }}
+							style={{ color: "#3F3B6C" }}
 							class='bi bi-gear-fill quick-links-icon'></i>
 					}
 				/>
