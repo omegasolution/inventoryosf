@@ -14,7 +14,7 @@ const DashboardCard = ({ information, count, isCustomer, title }) => {
 									style={{
 										borderRadius: "10px",
 										background:
-											"linear-gradient(90deg, #8CB8ED 10%, #5A8DE0 75%)",
+											"linear-gradient(90deg, rgba(110,110,170,1) 49%, rgba(36,53,99,1) 100%)",
 									}}>
 									<div className='media d-flex'>
 										<div className='media-body text-left'>
@@ -39,7 +39,7 @@ const DashboardCard = ({ information, count, isCustomer, title }) => {
 									style={{
 										borderRadius: "10px",
 										background:
-											"linear-gradient(90deg, #BD5FD3 10%, #7E3C8E 75%)",
+											"linear-gradient(90deg, rgba(255,140,91,1) 51%, rgba(255,107,36,1) 100%)",
 									}}>
 									<div className='media d-flex'>
 										<div className='media-body text-left'>
@@ -69,7 +69,7 @@ const DashboardCard = ({ information, count, isCustomer, title }) => {
 									style={{
 										borderRadius: "10px",
 										background:
-											"linear-gradient(90deg, #65E5AB 10%, #52B289 75%)",
+											"linear-gradient(90deg, rgba(91,170,255,1) 51%, rgba(6,83,207,1) 100%)",
 									}}>
 									<div className='media d-flex'>
 										<div className='media-body text-left'>
@@ -96,7 +96,7 @@ const DashboardCard = ({ information, count, isCustomer, title }) => {
 									style={{
 										borderRadius: "10px",
 										background:
-											"linear-gradient(90deg, #E0489B 10%, #9E1057 75%)",
+											"linear-gradient(90deg, rgba(86,219,98,1) 51%, rgba(95,179,119,1) 100%)",
 									}}>
 									{isCustomer ? (
 										<div className='media d-flex'>
