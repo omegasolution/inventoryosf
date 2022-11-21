@@ -32,15 +32,7 @@ const Sidenav = ({ color, sideNavOpenKeys }) => {
 			key: "dashboard",
 			icon: <HomeOutlined />,
 		},
-		{
-			label: (
-				<NavLink to='/pos'>
-					<span>POS</span>
-				</NavLink>
-			),
-			key: "pos",
-			icon: <ShoppingCartOutlined />,
-		},
+
 		{
 			label: "PRODUCT",
 			key: "product",
@@ -131,6 +123,15 @@ const Sidenav = ({ color, sideNavOpenKeys }) => {
 					),
 					key: "customers",
 					icon: <UserOutlined />,
+				},
+				{
+					label: (
+						<NavLink to='/sale'>
+							<span>New Sale</span>
+						</NavLink>
+					),
+					key: "newSale",
+					icon: <CheckOutlined />,
 				},
 				{
 					label: (

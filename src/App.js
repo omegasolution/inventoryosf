@@ -22,7 +22,8 @@ import "./assets/styles/responsive.css";
 import Customer from "./components/customer/customer";
 import DetailCust from "./components/customer/detailCust";
 import UpdateCust from "./components/customer/updateCust";
-import Pos from "./components/pos/pos";
+
+import Sale from "./components/sale/sale";
 import DetailSale from "./components/sale/detailSale";
 
 import Page404 from "./components/404/404Page";
@@ -131,6 +132,7 @@ function App() {
 						<Route path='/customer' exact element={<Customer />} />
 						<Route path='/customer/:id' element={<DetailCust />} />
 						<Route path='/customer/:id/update' element={<UpdateCust />} />
+						<Route path='/sale' exact element={<Sale />} />
 						<Route path='/salelist' exact element={<GetAllSale />} />
 						<Route path='/sale/:id' element={<DetailSale />} />
 						<Route path='/sale/:id/update' element={<UpdateProd />} />
@@ -183,8 +185,6 @@ function App() {
 							path='/designation/:id/update'
 							element={<UpdateDesignation />}
 						/>
-
-						<Route path='/pos' exact element={<Pos />} />
 
 						<Route path='/invoice-setting' exact element={<InvoiceSetting />} />
 					</Routes>
